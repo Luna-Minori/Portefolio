@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align:justify;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333333;
+    color: #333333;
+}
+
+header {
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    display: relative;
+}
+
+.navbarMain{
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    padding-left: 2em;
+    font-size: 20px;
+}
+
+.navul{
+    list-style-type: none;
+}
+
+.nav-item{
+    float: left;
+    width: 12%;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-lien{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.nav-lien:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+
+.profile{
+    position: relative;
+    align-self: right;
+
+}
+.Profile_picture{
+    padding : 5px;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+    color: white;
+    background-color: #3e3e3e;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.test {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.testli {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+}
+
+
+tr:nth-child(even) {
+    color: white;
+}
+
+.left-space {
+    margin-left: 3em;
+}
+
